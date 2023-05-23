@@ -101,18 +101,17 @@ grid-template-columns: repeat(3, 1fr);
        
         grid-template-columns: 1fr;
         margin-top: 10rem;
-        gap: 2rem;
+        gap: 1rem;
     }
     .main-header-image{
         width: 250px;
         height: 250px;
     }
     .about{
-        margin-top:26rem ;
+        margin-top:22rem ;
     }
     .aboutme{
         width: 350px;
-        padding-left: 1rem;
     }
     .skills-wrapper{
         margin-top: 1rem;
