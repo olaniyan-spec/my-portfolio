@@ -13,7 +13,7 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <div className='contact-wrapper'> 
         <div className='socials'>
-                <a href='https://linkedin.com/' target='_blank' rel='noreferrer noopener'><FaLinkedin/></a>
+                <a href='https://www.linkedin.com/in/Olaniyan-tofunmi' target='_blank' rel='noreferrer noopener'><FaLinkedin/></a>
                 <a href='https://twitter.com/@TofunmiOlaniyan' target='_blank' rel='noreferrer noopener'><AiOutlineTwitter/></a>
                 <a href='https://instagram.com/tofunmi_olaniyan' target='_blank' rel='noreferrer noopener'><AiFillInstagram/></a>
                 <a href='mailto:olaniyanolaoluwa3@gmail.com' target='blank' rel='noreferrer noopener'><MdEmail/></a>

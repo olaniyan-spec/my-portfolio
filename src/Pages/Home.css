@@ -88,8 +88,7 @@ grid-template-columns: repeat(3, 1fr);
     padding: 3rem;
     justify-content: center;
     align-items: center;
-    text-align: center;
-  
+    text-align: center; 
 }
 .footer-copyright{
     text-align: center;
@@ -132,6 +131,11 @@ grid-template-columns: repeat(3, 1fr);
     grid-template-columns: 1fr 1fr;
     color: white;
     padding: 1rem;
+}
+.socials{
+    
+    gap: 1rem;
+    
 }
 
 }
