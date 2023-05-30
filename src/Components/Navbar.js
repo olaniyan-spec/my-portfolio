@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className='container nav_container'>
-            <ul className={`nav_links ${navShowing ? 'show-nav' : 'hide-nav' }`}>
+            <ul className={`nav_links ${navShowing ? 'show-nav' : 'hide-nav' }`} onClick={()=>setNavshowing(false)}>
                <li><NavLink to='#header'>Home</NavLink></li>
                <li><NavLink to='#About' smooth>About</NavLink></li>
                <li><NavLink to='#projects' smooth>Projects</NavLink></li>
