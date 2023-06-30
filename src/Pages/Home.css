@@ -78,6 +78,7 @@ grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 7rem;
 }
 
 .socials{
@@ -131,6 +132,7 @@ grid-template-columns: repeat(3, 1fr);
     grid-template-columns: 1fr 1fr;
     color: white;
     padding: 1rem;
+    
 }
 .socials{
     

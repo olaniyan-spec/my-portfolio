@@ -23,4 +23,10 @@ export const project = [
         title: 'Construction Company Landing Page',
         link: 'https://construction-tf.vercel.app/'
     },
+    // {
+    //     id: 5,
+    //     image: require('./images/construction.jpg'),
+    //     title: 'A netflix clone using Firebase',
+    //     link: 'https://netflix-clone-be9ee.web.app/'
+    // },
 ]
