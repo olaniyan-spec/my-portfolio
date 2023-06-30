@@ -4,8 +4,7 @@ import Card from './Card'
 import {Link} from 'react-router-dom'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { useAnimate } from 'framer-motion'
-import { duration } from '@mui/material'
+
 import { useEffect } from 'react'
 
 
@@ -24,7 +23,7 @@ const Projects = () => {
     if(!inView){
       animation.start({x:'100vw'})
     }
-  }, [inView])
+  })
 
   return (
     <section ref = {ref} className='Projects' id="projects">
